@@ -21,18 +21,15 @@ namespace FindMaximumProblem
             int outputInt2 = maximumNumberCheck.MaximumNumber<int>(344, 734, 712);
             int outputInt3 = maximumNumberCheck.MaximumNumber<int>(343, 344, 1200);
 
-
             //Maximum Number At First, Second and Third Place 
             double outputFloat1 = maximumNumberCheck.MaximumNumber<double>(128.9, 8.9, 11.75);
             double outputFloat2 = maximumNumberCheck.MaximumNumber<double>(12.9, 48.9, 28.29);
             double outputFloat3 = maximumNumberCheck.MaximumNumber<double>(1.9, 4.0, 4.9);
 
-
             //Maximum Number At First, Second and Third Place 
             string outputString1 = maximumNumberCheck.MaximumNumber<string>("Peach", "Apple", "Banana");
             string outputString2 = maximumNumberCheck.MaximumNumber<string>("Apple", "Peach", "Banana");
             string outputString3 = maximumNumberCheck.MaximumNumber<string>("Apple", "Banana", "Peach");
-
 
             //Display Results
             Console.WriteLine("----------------------------------------");
