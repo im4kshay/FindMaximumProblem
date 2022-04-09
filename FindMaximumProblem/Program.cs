@@ -16,11 +16,17 @@ namespace FindMaximumProblem
             //Calling Class to call a Function
             MaximumNumberCheck maximumNumberCheck = new MaximumNumberCheck();
 
-            //Maximum Number At Third Place
-            int outputInteger = maximumNumberCheck.MaximumIngerNumber(141, 282, 733);
+            //Maximum Number At First Place
+            double outputFloat1 = maximumNumberCheck.MaximumFloatNumber(14.1, 2.82, 7.33);
+            Console.WriteLine("Maximum Number of Float at First Place : " + outputFloat1);
 
-            //Display Output
-            Console.WriteLine("Maximum Number of Integer : " + outputInteger);
+            //Maximum Number At Second Place
+            double outputFloat2 = maximumNumberCheck.MaximumFloatNumber(4.1, 28.2, 12.8);
+            Console.WriteLine("Maximum Number of Integer at Second Place : " + outputFloat2);
+
+            //Maximum Number At Third Place
+            double outputFloat3 = maximumNumberCheck.MaximumFloatNumber(75.9, 68.47, 77.3);
+            Console.WriteLine("Maximum Number of Integer at Third Place : " + outputFloat3);
 
             Console.ReadLine();
         }
