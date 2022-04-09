@@ -8,6 +8,7 @@ namespace FindMaximumProblem
 {
     class GenericMaximum<T> where T : IComparable
     {
+
         // Instance variables
         public T firstValue, secondValue, thirdValue;
 
@@ -44,5 +45,6 @@ namespace FindMaximumProblem
             T maxNumber = GenericMaximum<T>.MaximumNumber(this.firstValue, this.secondValue, this.thirdValue);
             return maxNumber;
         }
+
     }
 }
