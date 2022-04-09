@@ -12,6 +12,8 @@ namespace FindMaximumProblem
         {
             //Welcome Message
             Console.WriteLine("=-=-=-=-=-Welcome to the Find Maximum Problem using Generics-=-=-=-=-=");
+
+            Console.ReadLine();
         }
     }
 }
