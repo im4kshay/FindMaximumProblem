@@ -33,6 +33,8 @@ namespace FindMaximumProblem
             Console.WriteLine("Float Max : " + outputDouble);
             Console.WriteLine("String Max : " + outputString);
 
+            Console.ReadLine();
+
         }
     }
 }

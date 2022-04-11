@@ -25,7 +25,7 @@ namespace FindMaximumProblem
         public T MaxValue(params T[] values)
         {
             var sorted_values = Sort(values);
-            return sorted_values[^1];
+            return sorted_values[sorted_values.Length-1];
         }
         public T MaxMethod()
         {
